@@ -90,6 +90,9 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0; }
 
+a {
+  text-decoration: none; }
+
 header {
   width: 100%;
   height: 620px;
@@ -350,6 +353,257 @@ li {
 #foto2, #foto1 {
   text-align: center; }
 
+#section5 {
+  height: 160px; }
+
+#sponsors {
+  display: flex;
+  width: 58%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 60px; }
+
+#section6 {
+  height: 800px;
+  background-color: #111111; }
+
+#text4 {
+  text-align: center;
+  padding-top: 80px; }
+  #text4 h4 {
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Brandon Grotesque";
+    font-weight: 300;
+    letter-spacing: -1.5px; }
+    #text4 h4:after {
+      content: ' Team';
+      font-weight: 700;
+      letter-spacing: -1.5px; }
+  #text4 p {
+    color: #777777;
+    font-family: "Brandon Grotesque";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.55px; }
+
+#flex-team {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 80px; }
+
+#team1, #team2, #team3 {
+  text-align: center; }
+
+.name {
+  color: #ffffff;
+  font-family: "Brandon Grotesque";
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+  line-height: 50px; }
+
+.staff {
+  color: #ebebeb;
+  font-family: "Brandon Grotesque Regular";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.4px; }
+
+.flex-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 11px; }
+
+.twit {
+  width: 41px;
+  height: 41px;
+  line-height: 38px;
+  margin-right: 9px;
+  background-color: #111111;
+  border-radius: 41px;
+  border: 3px solid white;
+  box-sizing: border-box; }
+  .twit:hover {
+    border: none;
+    background-color: #00aced;
+    line-height: 43px; }
+
+.book {
+  width: 41px;
+  height: 41px;
+  line-height: 41px;
+  margin-right: 9px;
+  background-color: #111111;
+  border-radius: 41px;
+  border: 3px solid white;
+  box-sizing: border-box; }
+  .book:hover {
+    border: none;
+    background-color: #3b5998;
+    line-height: 48px; }
+
+.google {
+  width: 41px;
+  height: 41px;
+  line-height: 41px;
+  margin-right: 9px;
+  background-color: #111111;
+  border-radius: 41px;
+  border: 3px solid white;
+  box-sizing: border-box; }
+  .google:hover {
+    border: none;
+    background-color: #d95232;
+    line-height: 48px; }
+
+.pint {
+  width: 41px;
+  height: 41px;
+  line-height: 48px;
+  margin-right: 9px;
+  background-color: #111111;
+  border-radius: 41px;
+  border: 3px solid white;
+  box-sizing: border-box; }
+  .pint:hover {
+    border: none;
+    background-color: #cb2028;
+    line-height: 53px; }
+
+#ps {
+  text-align: center;
+  margin-top: 49px; }
+  #ps p {
+    color: #ebebeb;
+    font-family: "Brandon Grotesque";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.5px; }
+
+footer {
+  height: 640px;
+  background-color: #7690c5; }
+
+#flexfooter {
+  display: flex;
+  width: 67%;
+  margin: 0 auto;
+  padding-top: 100px; }
+
+#socials {
+  width: 50%; }
+  #socials h4 {
+    color: #ffffff;
+    margin-top: -20px;
+    font-family: "Brandon Grotesque";
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -1.5px; }
+    #socials h4:after {
+      content: ' Hello';
+      font-weight: 700; }
+  #socials p {
+    color: #ffffff;
+    font-family: "Brandon Grotesque";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.45px;
+    margin-top: 17px; }
+
+form {
+  width: 50%; }
+
+#input-name {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: #bbbbbb;
+  font-family: "Brandon Grotesque";
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.45px;
+  padding-left: 20px; }
+
+#input-email {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: #bbbbbb;
+  font-family: "Brandon Grotesque";
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.45px;
+  padding-left: 20px;
+  margin-top: 29px; }
+
+#textarea {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 210px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: #bbbbbb;
+  font-family: "Brandon Grotesque";
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.45px;
+  padding-left: 20px;
+  padding-top: 10px; }
+
+#soc-contacts {
+  display: flex;
+  margin-left: -24px;
+  margin-right: 7px;
+  justify-content: space-around;
+  margin-top: 47px; }
+
+.cc {
+  display: flex;
+  align-items: center; }
+  .cc p {
+    margin-left: 17px;
+    margin-bottom: 15px; }
+
+#s3 p {
+  margin-left: 7px; }
+
+#s5 p {
+  margin-left: 7px;
+  margin-bottom: 20px; }
+
+#s4 {
+  margin-left: 5px; }
+  #s4 p {
+    margin-left: 22px; }
+
+hr {
+  width: 70%;
+  margin-top: 90px;
+  height: 1px;
+  background-color: #87a0d2; }
+
+#rights {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Brandon Grotesque";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.4px;
+  margin-top: 22px; }
+
 @media screen and (min-width: 883px) {
   #site-navigation #main-menu {
     display: block; }
@@ -416,7 +670,35 @@ li {
     width: 80%;
     display: block; }
   #clients2 {
-    flex-direction: column-reverse; } }
+    flex-direction: column-reverse; }
+  #section5 {
+    height: auto; }
+  #sponsors {
+    flex-wrap: wrap;
+    width: 40%; }
+  #section6 {
+    height: auto; }
+  #flex-team {
+    flex-direction: column;
+    margin-top: 10px; }
+  #text4 {
+    padding-top: 10px; }
+  #team1, #team2, #team3 {
+    margin-top: 20px; }
+  footer {
+    height: auto; }
+  #flexfooter {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px; }
+  #soc-contacts {
+    flex-direction: column;
+    margin-left: 0; }
+  form {
+    width: 70%;
+    align-items: center; }
+  hr {
+    margin-top: 20px; } }
 
 @media screen and (max-width: 480px) {
   #flex2 {
